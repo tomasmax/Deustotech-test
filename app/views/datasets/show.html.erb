@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @dataset.name %>
+</p>
+
+<p>
+  <strong>Object name:</strong>
+  <%= @dataset.object_name %>
+</p>
+
+<p>
+  <strong>License title:</strong>
+  <%= @dataset.license_title %>
+</p>
+
+<p>
+  <strong>License url:</strong>
+  <%= @dataset.license_url %>
+</p>
+
+<%= link_to 'Edit', edit_dataset_path(@dataset) %> |
+<%= link_to 'Back', datasets_path %>
