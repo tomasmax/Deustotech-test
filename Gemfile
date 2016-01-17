@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 #HTML, XML, SAX, and Reader parser
 gem 'nokogiri', '~> 1.6.7.1'
+#PostgreSQL gem for heroku deployment
+gem 'pg'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
