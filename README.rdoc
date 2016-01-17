@@ -2,7 +2,9 @@
 
 This app gets data from "http://apis.gov.bc.ca/bcdc/3/action/package_search?q=%22water%22" and saves in the database in the Dataset entity.
 
-The code that get JSON data from the API is in the "seeds.rb" file, which is located inside the "db" folder.
+I don't know why but the API only responses with the first 9 datasets and it tells that are 355 results.
+
+The code that gets JSON data from the API is in the "db/seeds.rb" file.
 
 I developed a little MVC structure that shows in /datasets url the list of saved datasets.
 
