@@ -12,7 +12,7 @@ require 'net/http'
 
 #Load Canada British Columbia datasets related with "water" word
 
-datasets_url = "http://apis.gov.bc.ca/bcdc/3/action/package_search?q=%22water%22"
+datasets_url = "http://apis.gov.bc.ca/bcdc/3/action/package_search?q=%22water%22&rows=355"
 resp = Net::HTTP.get_response URI.parse(datasets_url)
 result = JSON.parse resp.body
 
